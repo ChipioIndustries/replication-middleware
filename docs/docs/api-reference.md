@@ -2,14 +2,14 @@
 sidebar_position: 3
 ---
 
-# PACKAGE_NAME_HERE
+# ReplicationMiddleware
 
 A brief description of the class.
 
 ## Constructor
 
 ```lua
-local package_name_here = PACKAGE_NAME_HERE.new()
+local replicationMiddleware = ReplicationMiddleware.new()
 ```
 
 ### Parameters

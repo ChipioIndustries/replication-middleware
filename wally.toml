@@ -1,6 +1,6 @@
 [package]
-name = "username_here/package_name_here"
-description = "package_description_here"
+name = "chipioindustries/replication-middleware"
+description = "Middleware for replicating Rodux actions to clients."
 version = "0.1.0"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"

@@ -6,14 +6,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'PACKAGE_NAME_HERE',
-  tagline: 'TAGLINE_HERE',
-  url: 'https://username_here.github.io',
-  baseUrl: '/package_name_here/',
+  title: 'ReplicationMiddleware',
+  tagline: 'Middleware for replicating Rodux actions to clients.',
+  url: 'https://chipioindustries.github.io',
+  baseUrl: '/replication-middleware/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'username_here', // Usually your GitHub org/user name.
+  organizationName: 'chipioindustries', // Usually your GitHub org/user name.
   projectName: 'project_name_here', // Usually your repo name.
 
   presets: [
@@ -38,7 +38,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'PACKAGE_NAME_HERE',
+        title: 'ReplicationMiddleware',
         logo: {
           alt: 'Site Logo',
           src: 'img/logo.png',
@@ -51,7 +51,7 @@ const config = {
             label: 'Get Started',
           },
           {
-            href: 'https://github.com/username_here/package_name_here',
+            href: 'https://github.com/chipioindustries/replication-middleware',
             label: 'GitHub',
             position: 'right',
           },
