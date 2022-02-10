@@ -9,13 +9,13 @@ dependencies = [["Llama", "freddylist/llama@1.1.1"]]
 
 [[package]]
 name = "chipioindustries/remotes"
-version = "1.0.0"
+version = "1.0.1"
 dependencies = [["Llama", "freddylist/llama@1.1.1"], ["Rapscallion", "chipioindustries/rapscallion@1.0.4"], ["Signal", "chipioindustries/signal@1.0.3"]]
 
 [[package]]
 name = "chipioindustries/replication-middleware"
 version = "0.1.0"
-dependencies = [["Llama", "freddylist/llama@1.1.1"], ["Remotes", "chipioindustries/remotes@1.0.0"], ["Rodux", "chipioindustries/rodux@3.0.4"]]
+dependencies = [["Llama", "freddylist/llama@1.1.1"], ["Remotes", "chipioindustries/remotes@1.0.1"], ["Rodux", "chipioindustries/rodux@3.0.4"]]
 
 [[package]]
 name = "chipioindustries/rodux"

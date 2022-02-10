@@ -8,7 +8,7 @@ realm = "shared"
 [dependencies]
 Llama = "freddylist/llama@1.1.1"
 Rodux = "chipioindustries/rodux@3.0.4"
-Remotes = "chipioindustries/remotes@1.0.0"
+Remotes = "chipioindustries/remotes@1.0.1"
 
 [dev-dependencies]
 TestEZ = "roblox/testez@0.4.1"
