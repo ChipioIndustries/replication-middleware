@@ -3,18 +3,25 @@ return function()
 		local ReplicationMiddleware = require(script.Parent)
 		local Rodux = require(script.Parent.Parent.Rodux)
 
-		local myReducer = function(state, action)
-			return {
-				value = 5
-			}
-		end
+		it("should construct a middleware object", function()
+			local middleware = ReplicationMiddleware.new()
 
-		local store = Rodux.Store.new(myReducer, nil, {
-			ReplicationMiddleware.new()
-		})
+			expect(middleware).to.be.a("function")
+		end)
 
-		store:dispatch({
-			type = "whatever"
-		})
+		it("should replicate actions", function()
+			local myReducer = function(state, action)
+				if action.type == "yeehaw" then
+					return action.value
+				end
+				return state
+			end
+
+			local store = Rodux.Store.new(myReducer, nil, {
+				ReplicationMiddleware.new()
+			})
+
+			expect(store).to.be.ok()
+		end)
 	end)
 end
