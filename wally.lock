@@ -14,7 +14,7 @@ dependencies = [["Llama", "freddylist/llama@1.1.1"], ["Rapscallion", "chipioindu
 
 [[package]]
 name = "chipioindustries/replication-middleware"
-version = "0.1.0"
+version = "1.0.0"
 dependencies = [["Llama", "freddylist/llama@1.1.1"], ["Remotes", "chipioindustries/remotes@1.0.1"], ["Rodux", "chipioindustries/rodux@3.0.4"]]
 
 [[package]]
